@@ -13,7 +13,8 @@ Projects: Displaying a collection of my past and ongoing projects.</br> </br>
 Contact: An easy-to-use form for potential clients or employers to get in touch.
 
 
-#Tech Stack: </br>  </br>
+#Tech Stack:
+
 HTML5 and CSS3 (with Tailwind CSS for styling) </br>
 JavaScript  </br>
 Font Awesome for icons  </br>
