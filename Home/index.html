@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+    }
+    </style>
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home" class="flex flex-col items-center justify-center min-h-screen bg-[#483d8b] text-center p-4">
+        
+        <img src="profile-pic.png" alt="profile pic" class="rounded-full w-28 h-28 mb-4 my-2 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 mb-2">Hi, I'm Md Mehtab Khan</h1>
+        <p class="text-sm md:text-base mt-1 lg:text-lg text-gray-200 max-w-xl lg:max-w-2xl mx-auto text-justify">
+            As a full-stack developer, I seamlessly blend front-end finesse with back-end wizardry to create immersive digital experiences. I thrive on transforming complex challenges into elegant solutions, ensuring that every aspect of a project—from user interface to server-side logic—works harmoniously together. I drive my approach with a passion for innovation and a commitment to delivering high-quality results that surpass expectations.
+        </p>
+       
+        <!-- Buttons section with responsive design -->
+        <div class="mt-4 flex flex-wrap justify-center gap-3">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/mdmehtab/" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded text-sm md:text-base">
+                LinkedIn
+            </a>
+    
+            <!-- GitHub -->
+            <a href="https://github.com/mdmehtabkhan" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded text-sm md:text-base">
+                GitHub
+            </a>
+    
+            <!-- Work with Me -->
+            <a href="#contact" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded text-sm md:text-base">
+                Work with Me
+            </a>
+    
+            <!-- Download CV -->
+            <a href="assets/Resume.pdf" download class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded text-sm md:text-base">
+                Download CV
+            </a>
+        </div>
+    </section>
+</body>
+</html>
